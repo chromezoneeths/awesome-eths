@@ -23,5 +23,26 @@
 			"Application",
 			"Web API"
 		]
+	},
+	"Bad At Hangman": {
+		"source": "https://git.wolo.dev/wolo/bad-at-hangman",
+		"description": "A program that plays hangman (as the guesser)",
+		"authors": [
+			"Willow Carlson-Huber"
+		],
+		"categories": [
+			"Demo",
+			"Game"
+		]
+	},
+	"Pangraminator": {
+		"source": "https://git.wolo.dev/wolo/pangraminator",
+		"description": "A program that generates bad pangrams",
+		"authors": [
+			"Willow Carlson-Huber"
+		],
+		"categories": [
+			"Demo"
+		]
 	}
 }
