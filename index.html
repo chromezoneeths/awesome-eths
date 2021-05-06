@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Awesome ETHS</title>
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' cdnjs.cloudflare.com">
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+		integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+	<h1>Awesome ETHS</h1>
+	<div>
+		This website lists awesome projects made by current or former ETHS students.
+		To submit a new project, submit a pull request at
+		<a href="https://github.com/chromezoneeths/awesome-eths">our repository</a>
+		after making sure your project meets
+		<a href="./requirements">our requirements</a>.
+		<br><br>
+	</div>
+	<template id="category">
+		<li>
+			<b><a href="./category/?name={CATEGORY_URLENCODED}">{CATEGORY_NAME}</a></b>
+			<p>{CATEGORY_DESCRIPTION}</p>
+		</li>
+	</template>
+	<ul id="categories">
+		Loading...
+	</ul>
+</body>
+
+</html>

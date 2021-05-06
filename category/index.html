@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Category</title>
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' cdnjs.cloudflare.com">
+	<script src="./category.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+		integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="../index.css">
+
+</head>
+
+<body>
+	<h1 class="category_name">Loading...</h1>
+	<p class="category_desc">Loading...</p>
+	<template id="project">
+		<li>
+			<b><a href="../project/?name={PROJECT_URLENCODED}">{PROJECT_NAME}</a></b>
+			<p>
+				Categories: {PROJECT_CATEGORIES}<br>
+				{PROJECT_DESCRIPTION}
+			</p>
+		</li>
+	</template>
+	<ul id="projects">
+		Loading...
+	</ul>
+</body>
+
+</html>
