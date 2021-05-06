@@ -10,5 +10,18 @@
 			"CodETHS",
 			"Awesome Lists"
 		]
+	},
+	"ETHSBell Rewrite": {
+		"source": "https://github.com/chromezoneeths/ethsbell-rewrite",
+		"deployment": "https://bell-dev.wolo.dev",
+		"description": "A re-write of ETHSBell with some extra features.",
+		"authors": [
+			"Willow Carlson-Huber"
+		],
+		"categories": [
+			"CodETHS",
+			"Application",
+			"Web API"
+		]
 	}
 }
