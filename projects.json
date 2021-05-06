@@ -3,6 +3,9 @@
 		"source": "https://github.com/chromezoneeths/awesome-eths",
 		"deployment": "https://chromezoneeths.github.io/awesome-eths",
 		"description": "This website!",
+		"authors": [
+			"Willow Carlson-Huber"
+		],
 		"categories": [
 			"CodETHS",
 			"Awesome Lists"

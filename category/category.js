@@ -15,6 +15,7 @@
 				.replace("{PROJECT_NAME}", i)
 				.replace("{PROJECT_DESCRIPTION}", projects[i].description)
 				.replace("{PROJECT_CATEGORIES}", projects[i].categories.join(", "))
+				.replace("{PROJECT_AUTHORS}", projects[i].authors.join(", "))
 		}
 	}
 })()
