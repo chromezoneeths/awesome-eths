@@ -2,5 +2,9 @@
 	"CodETHS": "Projects made by or for the CodETHS club",
 	"Awesome Lists": "Lists of other projects.",
 	"Demo": "Projects which have little practical use, but demonstrate a particular tool or pattern.",
+	"Library": "A library for other programs to link against.",
+	"Application": "A program that presents a workflow or experience.",
+	"Utility": "A small program meant to be a part of a larger workflow.",
+	"Game": "A game.",
 	"Proprietary": "Projects which are not permissively licensed."
 }
