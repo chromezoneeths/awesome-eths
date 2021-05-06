@@ -44,5 +44,16 @@
 		"categories": [
 			"Demo"
 		]
+	},
+	"TalQ": {
+		"source": "https://git.wolo.dev/wolo/talq",
+		"deployment": "https://talq.wolo.dev",
+		"description": "A program that helps teleconferencers take turns",
+		"authors": [
+			"Willow Carlson-Huber"
+		],
+		"categories": [
+			"Application"
+		]
 	}
 }
